@@ -25,6 +25,7 @@ app.get("/", (req, res) => {
   // res.json("response done");
   res.render("text/index", {
     name: "Reazul Islam Reaz",
+    home: "Faridpur",
   });
 });
 
